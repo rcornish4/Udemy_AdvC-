@@ -1,0 +1,67 @@
+/*
+ * Custom Objects as Map Keys.cpp
+ *
+ *  Created on: Jun 16, 2017
+ *      Author: rcornish4
+ */
+
+#include <iostream>
+#include <map>
+
+class Person {
+private:
+	std::string name;
+	int age;
+
+public:
+	Person() = default;
+
+	Person( std::string name, int age ) :
+		name( name ), age( age ) {
+	}
+
+	// Copy Constructor
+	Person( const Person &other ) {
+		//std::cout << "Copy Constructor running!" << std::endl;
+		name = other.name;
+		age = other.age;
+	}
+
+	void print() const {
+		std::cout << name << ": " << age;
+	}
+
+	// In order to use class with map, must either overload the < operator or provide a comp object in map declaration
+	bool operator<( const Person &other ) const {
+		if (name == other.name) {
+			return age < other.age;
+		}
+		else
+		{
+			return name < other.name;
+		}
+	}
+};
+
+int main( int argc, char** argv ) {
+	std::map<Person, int> people;
+
+	people[Person("Mike", 40)] = 40;
+	people[Person("Mike", 444)] = 123;
+	people[Person("Vicky", 30)] = 30;
+	people[Person("Raj", 20)] = 20;
+
+	//people.insert(std::make_pair(55, Person("Bob", 45)));
+	for (std::map<Person, int>::iterator it = people.begin(); it != people.end(); ++it ) {
+		std::cout << it->second << ": " << std::flush;
+		it->first.print();
+		std::cout << std::endl;
+	}
+
+	return 0;
+}
+
+
+
+
+

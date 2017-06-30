@@ -109,3 +109,40 @@ org.eclipse.ecf.filetransfer.IncomingFileTransferException: HttpComponents conne
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-06-16 13:51:52.849
 !MESSAGE Indexed 'Multimap' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2017-06-29 20:00:48.246 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-29 20:01:44.709
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView' id and the 'Systemtap Error Log' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-29 20:01:45.334
+!MESSAGE Removing part descriptor with the 'org.eclipse.tracecompass.analysis.os.linux.ui.views.latency.statsview' id and the 'System Call Latency Statistics' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-29 20:01:45.554
+!MESSAGE Removing part descriptor with the 'org.eclipse.gef.ui.palette_view' id and the 'Palette' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-29 20:01:45.555
+!MESSAGE Removing part descriptor with the 'org.tigris.subversion.subclipse.ui.repository.RepositoriesView' id and the 'SVN Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-29 20:01:45.558
+!MESSAGE Removing part descriptor with the 'org.tigris.subversion.subclipse.ui.svnproperties.SvnPropertiesView' id and the 'SVN Properties' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-29 20:01:45.589
+!MESSAGE Removing part descriptor with the 'org.tigris.subversion.subclipse.ui.svnproperties.SvnRevPropertiesView' id and the 'SVN Rev Properties' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-29 20:01:45.590
+!MESSAGE Removing part descriptor with the 'org.tigris.subversion.subclipse.ui.annotations.AnnotateView' id and the 'SVN Annotate' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-29 20:01:45.594
+!MESSAGE Removing part descriptor with the 'org.tigris.subversion.subclipse.ui.conflicts.TreeConflictsView' id and the 'SVN Tree Conflicts' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-29 20:01:49.807
+!MESSAGE Indexed 'Multimap' (1 sources, 108 headers) in 7.11 sec: 9,578 declarations; 16,487 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-29 20:02:12.748
+!MESSAGE Indexed 'Multimap' (1 sources, 157 headers) in 5.53 sec: 14,976 declarations; 23,316 references; 0 unresolved inclusions; 0 syntax errors; 3 unresolved names (0.0078%)

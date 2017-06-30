@@ -472,3 +472,30 @@ Invoking: GCC C++ Linker
 g++  -o "Multimap"  ./Multimap.o   
 Finished building target: Multimap
  
+20:02:11 **** Incremental Build of configuration Debug for project Multimap ****
+make all 
+Building file: ../Multimap.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Multimap.d" -MT"Multimap.o" -o "Multimap.o" "../Multimap.cpp"
+Finished building: ../Multimap.cpp
+ 
+Building target: Multimap
+Invoking: GCC C++ Linker
+g++  -o "Multimap"  ./Multimap.o   
+Finished building target: Multimap
+ 
+20:02:16 **** Incremental Build of configuration Debug for project Multimap ****
+make all 
+make: Nothing to be done for 'all'.
+20:02:47 **** Incremental Build of configuration Debug for project Multimap ****
+make all 
+Building file: ../Multimap.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Multimap.d" -MT"Multimap.o" -o "Multimap.o" "../Multimap.cpp"
+Finished building: ../Multimap.cpp
+ 
+Building target: Multimap
+Invoking: GCC C++ Linker
+g++  -o "Multimap"  ./Multimap.o   
+Finished building target: Multimap
+ 

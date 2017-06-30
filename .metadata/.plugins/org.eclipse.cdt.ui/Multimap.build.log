@@ -1,8 +1,8 @@
-15:09:22 **** Incremental Build of configuration Debug for project Multimap ****
+20:02:47 **** Incremental Build of configuration Debug for project Multimap ****
 make all 
 Building file: ../Multimap.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Multimap.d" -MT"Multimap.o" -o "Multimap.o" "../Multimap.cpp"
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Multimap.d" -MT"Multimap.o" -o "Multimap.o" "../Multimap.cpp"
 Finished building: ../Multimap.cpp
  
 Building target: Multimap
@@ -11,5 +11,5 @@ g++  -o "Multimap"  ./Multimap.o
 Finished building target: Multimap
  
 
-15:09:23 Build Finished (took 525ms)
+20:02:48 Build Finished (took 488ms)
 

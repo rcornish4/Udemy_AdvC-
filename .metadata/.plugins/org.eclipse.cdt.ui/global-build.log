@@ -555,3 +555,1301 @@ Invoking: GCC C++ Linker
 g++  -o "Multimap"  ./Multimap.o   
 Finished building target: Multimap
  
+20:44:09 **** Build of configuration Debug for project Overloading the Insertion Operator for Printing1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:13 **** Incremental Build of configuration Debug for project Overloading the Insertion Operator for Printing1 ****
+make all 
+make: Nothing to be done for 'all'.
+05:40:40 **** Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+Finished building: ../Function Pointers.cpp
+ 
+Building target: Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Function Pointers"  ./Function\ Pointers.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'Function Pointers' failed
+collect2: error: ld returned 1 exit status
+make: *** [Function Pointers] Error 1
+05:42:24 **** Clean-only build of configuration Debug for project Function Pointers ****
+make clean 
+rm -rf  ./Function\ Pointers.o  ./Function\ Pointers.d  "Function Pointers"
+ 
+05:42:30 **** Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+Finished building: ../Function Pointers.cpp
+ 
+Building target: Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Function Pointers"  ./Function\ Pointers.o   
+Finished building target: Function Pointers
+ 
+05:42:35 **** Incremental Build of configuration Debug for project Function Pointers ****
+make all 
+make: Nothing to be done for 'all'.
+05:43:24 **** Incremental Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+../Function Pointers.cpp: In function ‘int main(int, char**)’:
+../Function Pointers.cpp:20:8: warning: value computed is not used [-Wunused-value]
+  *fn_pt;
+        ^
+../Function Pointers.cpp:20:8: warning: statement has no effect [-Wunused-value]
+Finished building: ../Function Pointers.cpp
+ 
+Building target: Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Function Pointers"  ./Function\ Pointers.o   
+Finished building target: Function Pointers
+ 
+05:45:48 **** Incremental Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+Finished building: ../Function Pointers.cpp
+ 
+Building target: Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Function Pointers"  ./Function\ Pointers.o   
+Finished building target: Function Pointers
+ 
+05:46:02 **** Incremental Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+Finished building: ../Function Pointers.cpp
+ 
+Building target: Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Function Pointers"  ./Function\ Pointers.o   
+Finished building target: Function Pointers
+ 
+05:47:21 **** Incremental Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+Finished building: ../Function Pointers.cpp
+ 
+Building target: Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Function Pointers"  ./Function\ Pointers.o   
+Finished building target: Function Pointers
+ 
+05:48:10 **** Incremental Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+Finished building: ../Function Pointers.cpp
+ 
+Building target: Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Function Pointers"  ./Function\ Pointers.o   
+Finished building target: Function Pointers
+ 
+05:49:55 **** Incremental Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+../Function Pointers.cpp: In function ‘int main(int, char**)’:
+../Function Pointers.cpp:16:7: error: too few arguments to function ‘void test(int)’
+  test();
+       ^
+../Function Pointers.cpp:10:6: note: declared here
+ void test( int value ) {
+      ^
+make: *** [Function Pointers.o] Error 1
+subdir.mk:18: recipe for target 'Function Pointers.o' failed
+05:50:28 **** Incremental Build of configuration Debug for project Function Pointers ****
+make all 
+Building file: ../Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Function Pointers.d" -MT"Function\ Pointers.d" -o "Function Pointers.o" "../Function Pointers.cpp"
+Finished building: ../Function Pointers.cpp
+ 
+Building target: Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Function Pointers"  ./Function\ Pointers.o   
+Finished building target: Function Pointers
+ 
+05:55:55 **** Build of configuration Debug for project Using Function Pointers ****
+make all 
+Building file: ../Using Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Using Function Pointers.d" -MT"Using\ Function\ Pointers.d" -o "Using Function Pointers.o" "../Using Function Pointers.cpp"
+Finished building: ../Using Function Pointers.cpp
+ 
+Building target: Using Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Using Function Pointers"  ./Using\ Function\ Pointers.o   
+Finished building target: Using Function Pointers
+ 
+05:57:29 **** Incremental Build of configuration Debug for project Using Function Pointers ****
+make all 
+Building file: ../Using Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Using Function Pointers.d" -MT"Using\ Function\ Pointers.d" -o "Using Function Pointers.o" "../Using Function Pointers.cpp"
+Finished building: ../Using Function Pointers.cpp
+ 
+Building target: Using Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Using Function Pointers"  ./Using\ Function\ Pointers.o   
+Finished building target: Using Function Pointers
+ 
+05:59:00 **** Incremental Build of configuration Debug for project Using Function Pointers ****
+make all 
+Building file: ../Using Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Using Function Pointers.d" -MT"Using\ Function\ Pointers.d" -o "Using Function Pointers.o" "../Using Function Pointers.cpp"
+Finished building: ../Using Function Pointers.cpp
+ 
+Building target: Using Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Using Function Pointers"  ./Using\ Function\ Pointers.o   
+Finished building target: Using Function Pointers
+ 
+06:04:01 **** Incremental Build of configuration Debug for project Using Function Pointers ****
+make all 
+Building file: ../Using Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Using Function Pointers.d" -MT"Using\ Function\ Pointers.d" -o "Using Function Pointers.o" "../Using Function Pointers.cpp"
+Finished building: ../Using Function Pointers.cpp
+ 
+Building target: Using Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Using Function Pointers"  ./Using\ Function\ Pointers.o   
+Finished building target: Using Function Pointers
+ 
+06:04:53 **** Incremental Build of configuration Debug for project Using Function Pointers ****
+make all 
+Building file: ../Using Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Using Function Pointers.d" -MT"Using\ Function\ Pointers.d" -o "Using Function Pointers.o" "../Using Function Pointers.cpp"
+Finished building: ../Using Function Pointers.cpp
+ 
+Building target: Using Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Using Function Pointers"  ./Using\ Function\ Pointers.o   
+Finished building target: Using Function Pointers
+ 
+06:49:41 **** Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'Object Slicing and Polymorphism' failed
+collect2: error: ld returned 1 exit status
+make: *** [Object Slicing and Polymorphism] Error 1
+06:49:41 **** Incremental Build of configuration Debug for project Using Function Pointers ****
+make all 
+make: Nothing to be done for 'all'.
+06:49:57 **** Clean-only build of configuration Debug for project Object Slicing and Polymorphism ****
+make clean 
+rm -rf  ./Object\ Slicing\ and\ Polymorphism.o  ./Object\ Slicing\ and\ Polymorphism.d  "Object Slicing and Polymorphism"
+ 
+06:49:57 **** Clean-only build of configuration Debug for project Using Function Pointers ****
+make clean 
+rm -rf  ./Using\ Function\ Pointers.o  ./Using\ Function\ Pointers.d  "Using Function Pointers"
+ 
+06:50:02 **** Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In function ‘int main(int, char**)’:
+../Object Slicing and Polymorphism.cpp:25:8: warning: unused variable ‘c1’ [-Wunused-variable]
+  Child c1;
+        ^
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:50:02 **** Build of configuration Debug for project Using Function Pointers ****
+make all 
+Building file: ../Using Function Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Using Function Pointers.d" -MT"Using\ Function\ Pointers.d" -o "Using Function Pointers.o" "../Using Function Pointers.cpp"
+Finished building: ../Using Function Pointers.cpp
+ 
+Building target: Using Function Pointers
+Invoking: GCC C++ Linker
+g++  -o "Using Function Pointers"  ./Using\ Function\ Pointers.o   
+Finished building target: Using Function Pointers
+ 
+06:50:11 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+make: Nothing to be done for 'all'.
+06:50:26 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:50:33 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:50:53 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In function ‘int main(int, char**)’:
+../Object Slicing and Polymorphism.cpp:26:15: error: cannot convert ‘Child’ to ‘Parent*’ in initialization
+  Parent *p1 = c1;
+               ^
+make: *** [Object Slicing and Polymorphism.o] Error 1
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+06:51:07 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:51:27 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In function ‘int main(int, char**)’:
+../Object Slicing and Polymorphism.cpp:26:16: error: ‘Parent’ is an inaccessible base of ‘Child’
+  Parent *p1 = &c1;
+                ^
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+make: *** [Object Slicing and Polymorphism.o] Error 1
+06:52:05 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In function ‘int main(int, char**)’:
+../Object Slicing and Polymorphism.cpp:28:14: error: invalid conversion from ‘Parent*’ to ‘Child*’ [-fpermissive]
+  Child *c2 = p1;
+              ^
+../Object Slicing and Polymorphism.cpp:28:9: warning: unused variable ‘c2’ [-Wunused-variable]
+  Child *c2 = p1;
+         ^
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+make: *** [Object Slicing and Polymorphism.o] Error 1
+06:52:29 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In function ‘int main(int, char**)’:
+../Object Slicing and Polymorphism.cpp:28:22: error: no matching function for call to ‘Child::Child(Parent*&)’
+  Child *c2 = Child(p1);
+                      ^
+../Object Slicing and Polymorphism.cpp:17:7: note: candidate: Child::Child()
+ class Child : public Parent {
+       ^
+../Object Slicing and Polymorphism.cpp:17:7: note:   candidate expects 0 arguments, 1 provided
+../Object Slicing and Polymorphism.cpp:17:7: note: candidate: Child::Child(const Child&)
+../Object Slicing and Polymorphism.cpp:17:7: note:   no known conversion for argument 1 from ‘Parent*’ to ‘const Child&’
+../Object Slicing and Polymorphism.cpp:28:9: warning: unused variable ‘c2’ [-Wunused-variable]
+  Child *c2 = Child(p1);
+         ^
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+make: *** [Object Slicing and Polymorphism.o] Error 1
+06:52:42 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:53:55 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:54:05 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In function ‘int main(int, char**)’:
+../Object Slicing and Polymorphism.cpp:31:5: error: request for member ‘print’ in ‘p2’, which is of non-class type ‘Parent(Child (*)())’
+  p2.print();
+     ^
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+make: *** [Object Slicing and Polymorphism.o] Error 1
+06:54:37 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In function ‘int main(int, char**)’:
+../Object Slicing and Polymorphism.cpp:30:23: error: no matching function for call to ‘Parent::Parent(Child*)’
+  Parent p2(new Child());
+                       ^
+../Object Slicing and Polymorphism.cpp:10:7: note: candidate: Parent::Parent()
+ class Parent {
+       ^
+../Object Slicing and Polymorphism.cpp:10:7: note:   candidate expects 0 arguments, 1 provided
+../Object Slicing and Polymorphism.cpp:10:7: note: candidate: Parent::Parent(const Parent&)
+../Object Slicing and Polymorphism.cpp:10:7: note:   no known conversion for argument 1 from ‘Child*’ to ‘const Parent&’
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+make: *** [Object Slicing and Polymorphism.o] Error 1
+06:54:57 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:56:36 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In constructor ‘Child::Child()’:
+../Object Slicing and Polymorphism.cpp:23:7: error: no matching function for call to ‘Parent::Parent()’
+ class Child : public Parent {
+       ^
+../Object Slicing and Polymorphism.cpp:12:2: note: candidate: Parent::Parent(const Parent&)
+  Parent(const Parent &other ) {
+  ^
+../Object Slicing and Polymorphism.cpp:12:2: note:   candidate expects 1 argument, 0 provided
+../Object Slicing and Polymorphism.cpp: In function ‘int main(int, char**)’:
+../Object Slicing and Polymorphism.cpp:31:8: note: synthesized method ‘Child::Child()’ first required here 
+  Child c1;
+        ^
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+make: *** [Object Slicing and Polymorphism.o] Error 1
+06:56:55 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:57:41 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp:14:28: error: invalid constructor; you probably meant ‘Parent (const Parent&)’
+  Parent(const Parent other ) {
+                            ^
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+make: *** [Object Slicing and Polymorphism.o] Error 1
+06:57:55 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+06:59:33 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp: In constructor ‘Child::Child()’:
+../Object Slicing and Polymorphism.cpp:27:19: error: no matching function for call to ‘Parent::Parent()’
+  Child() : Parent() { }
+                   ^
+../Object Slicing and Polymorphism.cpp:14:2: note: candidate: Parent::Parent(const Parent&)
+  Parent(const Parent &other ) {
+  ^
+../Object Slicing and Polymorphism.cpp:14:2: note:   candidate expects 1 argument, 0 provided
+subdir.mk:18: recipe for target 'Object Slicing and Polymorphism.o' failed
+make: *** [Object Slicing and Polymorphism.o] Error 1
+07:00:40 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+../Object Slicing and Polymorphism.cpp:12:13: warning: defaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+  Parent() = default;
+             ^
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+07:03:28 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+07:05:16 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 
+07:10:11 **** Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:10:47 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp:16:7: error: deleted function ‘virtual Dog::~Dog()’
+ class Dog: public Animal {
+       ^
+../Abstract Classes.cpp:11:10: error: overriding non-deleted function ‘virtual Animal::~Animal()’
+  virtual ~Animal() { }
+          ^
+../Abstract Classes.cpp:16:7: note: ‘virtual Dog::~Dog()’ is implicitly deleted because the default definition would be ill-formed:
+ class Dog: public Animal {
+       ^
+../Abstract Classes.cpp:11:10: error: ‘virtual Animal::~Animal()’ is private
+  virtual ~Animal() { }
+          ^
+../Abstract Classes.cpp:16:7: error: within this context
+ class Dog: public Animal {
+       ^
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:23:6: error: use of deleted function ‘Dog::Dog()’
+  Dog dog;
+      ^
+../Abstract Classes.cpp:16:7: note: ‘Dog::Dog()’ is implicitly deleted because the default definition would be ill-formed:
+ class Dog: public Animal {
+       ^
+../Abstract Classes.cpp:11:10: error: ‘virtual Animal::~Animal()’ is private
+  virtual ~Animal() { }
+          ^
+../Abstract Classes.cpp:16:7: error: within this context
+ class Dog: public Animal {
+       ^
+../Abstract Classes.cpp:23:6: error: use of deleted function ‘virtual Dog::~Dog()’
+  Dog dog;
+      ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+07:11:02 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:11:10 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:18:7: error: ‘virtual void Dog::speak()’ is private
+  void speak() {
+       ^
+../Abstract Classes.cpp:25:12: error: within this context
+  dog.speak();
+            ^
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+07:11:19 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:13:12 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:31:6: error: cannot declare variable ‘dog’ to be of abstract type ‘Dog’
+  Dog dog;
+      ^
+../Abstract Classes.cpp:17:7: note:   because the following virtual functions are pure within ‘Dog’:
+ class Dog: public Animal {
+       ^
+../Abstract Classes.cpp:14:15: note: 	virtual void Animal::run()
+  virtual void run() = 0;
+               ^
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+07:13:48 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:33:6: error: cannot declare variable ‘dog’ to be of abstract type ‘Dog’
+  Dog dog;
+      ^
+../Abstract Classes.cpp:17:7: note:   because the following virtual functions are pure within ‘Dog’:
+ class Dog: public Animal {
+       ^
+../Abstract Classes.cpp:23:15: note: 	virtual void Dog::run()
+  virtual void run() = 0;
+               ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+07:14:01 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+./Abstract Classes.o: In function `main':
+/home/rcornish4/workspace/Udemy_AdvC++/Abstract Classes/Debug/../Abstract Classes.cpp:33: undefined reference to `vtable for Dog'
+./Abstract Classes.o: In function `Dog::~Dog()':
+makefile:44: recipe for target 'Abstract Classes' failed
+/home/rcornish4/workspace/Udemy_AdvC++/Abstract Classes/Debug/../Abstract Classes.cpp:17: undefined reference to `vtable for Dog'
+collect2: error: ld returned 1 exit status
+make: *** [Abstract Classes] Error 1
+07:15:39 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:16:05 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:21:00 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:21:20 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:21:28 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:22:21 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:22:58 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:23:14 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:23:26 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:47:32: warning: lambda capture initializers only available with -std=c++14 or -std=gnu++14
+  std::vector<Corgi> corgis = [ Corgi(), Corgi(), Corgi() ];
+                                ^
+../Abstract Classes.cpp:47:38: error: empty initializer for lambda init-capture
+  std::vector<Corgi> corgis = [ Corgi(), Corgi(), Corgi() ];
+                                      ^
+../Abstract Classes.cpp:47:41: warning: lambda capture initializers only available with -std=c++14 or -std=gnu++14
+  std::vector<Corgi> corgis = [ Corgi(), Corgi(), Corgi() ];
+                                         ^
+../Abstract Classes.cpp:47:47: error: empty initializer for lambda init-capture
+  std::vector<Corgi> corgis = [ Corgi(), Corgi(), Corgi() ];
+                                               ^
+../Abstract Classes.cpp:47:50: warning: lambda capture initializers only available with -std=c++14 or -std=gnu++14
+  std::vector<Corgi> corgis = [ Corgi(), Corgi(), Corgi() ];
+                                                  ^
+../Abstract Classes.cpp:47:56: error: empty initializer for lambda init-capture
+  std::vector<Corgi> corgis = [ Corgi(), Corgi(), Corgi() ];
+                                                        ^
+../Abstract Classes.cpp: In lambda function:
+../Abstract Classes.cpp:47:59: error: expected ‘{’ before ‘;’ token
+  std::vector<Corgi> corgis = [ Corgi(), Corgi(), Corgi() ];
+                                                           ^
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:47:59: error: conversion from ‘main(int, char**)::<lambda()>’ to non-scalar type ‘std::vector<Corgi>’ requested
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+07:23:53 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:51:10: warning: unused variable ‘animals’ [-Wunused-variable]
+  Animal *animals;
+          ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:24:28 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:51:18: error: storage size of ‘animals’ isn’t known
+  Animal *animals[];
+                  ^
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+07:25:23 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:53:10: error: cannot convert ‘std::vector<Corgi>’ to ‘Animal*’ in assignment
+  animals = corgis;
+          ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+07:25:33 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:53:10: error: cannot convert ‘std::vector<Corgi>*’ to ‘Animal*’ in assignment
+  animals = &corgis;
+          ^
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+07:26:05 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:53:24: error: invalid new-expression of abstract class type ‘Animal’
+  animals = new Animal(5);
+                        ^
+../Abstract Classes.cpp:11:7: note:   because the following virtual functions are pure within ‘Animal’:
+ class Animal {
+       ^
+../Abstract Classes.cpp:14:15: note: 	virtual void Animal::speak()
+  virtual void speak() = 0;
+               ^
+../Abstract Classes.cpp:15:15: note: 	virtual void Animal::run()
+  virtual void run() = 0;
+               ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+07:26:20 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:53:23: error: no matching function for call to ‘Corgi::Corgi(int)’
+  animals = new Corgi(5);
+                       ^
+../Abstract Classes.cpp:27:2: note: candidate: Corgi::Corgi()
+  Corgi() {
+  ^
+../Abstract Classes.cpp:27:2: note:   candidate expects 0 arguments, 1 provided
+../Abstract Classes.cpp:25:7: note: candidate: constexpr Corgi::Corgi(const Corgi&)
+ class Corgi: public Dog {
+       ^
+../Abstract Classes.cpp:25:7: note:   no known conversion for argument 1 from ‘int’ to ‘const Corgi&’
+../Abstract Classes.cpp:25:7: note: candidate: constexpr Corgi::Corgi(Corgi&&)
+../Abstract Classes.cpp:25:7: note:   no known conversion for argument 1 from ‘int’ to ‘Corgi&&’
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+07:26:53 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:53:10: error: cannot convert ‘std::vector<Corgi>*’ to ‘Animal*’ in assignment
+  animals = &corgis;
+          ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+07:27:07 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:53:10: error: cannot convert ‘std::vector<Corgi>::iterator {aka __gnu_cxx::__normal_iterator<Corgi*, std::vector<Corgi> >}’ to ‘Animal*’ in assignment
+  animals = corgis.begin();
+          ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+07:27:53 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:51:10: warning: variable ‘animals’ set but not used [-Wunused-but-set-variable]
+  Animal *animals[5];
+          ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:28:32 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:55:25: error: invalid conversion from ‘Animal*’ to ‘Corgi*’ [-fpermissive]
+  Corgi *test = animals[0];
+                         ^
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+07:29:01 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:29:31 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:30:51 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+../Abstract Classes.cpp:60:11: warning: unused variable ‘moreAnimals’ [-Wunused-variable]
+  Animal **moreAnimals[5];
+           ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+07:32:38 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:62:26: error: expected primary-expression before ‘*’ token
+  moreAnimals[0] = Animal *someDogs[5];
+                          ^
+../Abstract Classes.cpp:62:27: error: ‘someDogs’ was not declared in this scope
+  moreAnimals[0] = Animal *someDogs[5];
+                           ^
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+07:32:49 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+../Abstract Classes.cpp:60:11: warning: unused variable ‘moreAnimals’ [-Wunused-variable]
+  Animal **moreAnimals[5];
+           ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+09:04:52 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:70:34: error: no matching function for call to ‘begin(Animal**&)’
+  auto it = std::begin(moreAnimals);
+                                  ^
+In file included from /usr/include/c++/5/bits/range_access.h:36:0,
+                 from /usr/include/c++/5/string:51,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Abstract Classes.cpp:8:
+/usr/include/c++/5/initializer_list:89:5: note: candidate: template<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)
+     begin(initializer_list<_Tp> __ils) noexcept
+     ^
+/usr/include/c++/5/initializer_list:89:5: note:   template argument deduction/substitution failed:
+../Abstract Classes.cpp:70:34: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘Animal**’
+  auto it = std::begin(moreAnimals);
+                                  ^
+In file included from /usr/include/c++/5/string:51:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Abstract Classes.cpp:8:
+/usr/include/c++/5/bits/range_access.h:48:5: note: candidate: template<class _Container> decltype (__cont.begin()) std::begin(_Container&)
+     begin(_Container& __cont) -> decltype(__cont.begin())
+     ^
+/usr/include/c++/5/bits/range_access.h:48:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/5/bits/range_access.h: In substitution of ‘template<class _Container> decltype (__cont.begin()) std::begin(_Container&) [with _Container = Animal**]’:
+../Abstract Classes.cpp:70:34:   required from here
+/usr/include/c++/5/bits/range_access.h:48:5: error: request for member ‘begin’ in ‘__cont’, which is of non-class type ‘Animal**’
+/usr/include/c++/5/bits/range_access.h:58:5: note: candidate: template<class _Container> decltype (__cont.begin()) std::begin(const _Container&)
+     begin(const _Container& __cont) -> decltype(__cont.begin())
+     ^
+/usr/include/c++/5/bits/range_access.h:58:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/5/bits/range_access.h: In substitution of ‘template<class _Container> decltype (__cont.begin()) std::begin(const _Container&) [with _Container = Animal**]’:
+../Abstract Classes.cpp:70:34:   required from here
+/usr/include/c++/5/bits/range_access.h:58:5: error: request for member ‘begin’ in ‘__cont’, which is of non-class type ‘Animal** const’
+/usr/include/c++/5/bits/range_access.h:87:5: note: candidate: template<class _Tp, long unsigned int _Nm> _Tp* std::begin(_Tp (&)[_Nm])
+     begin(_Tp (&__arr)[_Nm])
+     ^
+/usr/include/c++/5/bits/range_access.h:87:5: note:   template argument deduction/substitution failed:
+../Abstract Classes.cpp:70:34: note:   mismatched types ‘_Tp [_Nm]’ and ‘Animal**’
+  auto it = std::begin(moreAnimals);
+                                  ^
+../Abstract Classes.cpp:72:36: error: no matching function for call to ‘end(Animal**&)’
+  for ( ; it != std::end(moreAnimals); ++it ) {
+                                    ^
+In file included from /usr/include/c++/5/bits/range_access.h:36:0,
+                 from /usr/include/c++/5/string:51,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Abstract Classes.cpp:8:
+/usr/include/c++/5/initializer_list:99:5: note: candidate: template<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)
+     end(initializer_list<_Tp> __ils) noexcept
+     ^
+/usr/include/c++/5/initializer_list:99:5: note:   template argument deduction/substitution failed:
+../Abstract Classes.cpp:72:36: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘Animal**’
+  for ( ; it != std::end(moreAnimals); ++it ) {
+                                    ^
+In file included from /usr/include/c++/5/string:51:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Abstract Classes.cpp:8:
+/usr/include/c++/5/bits/range_access.h:68:5: note: candidate: template<class _Container> decltype (__cont.end()) std::end(_Container&)
+     end(_Container& __cont) -> decltype(__cont.end())
+     ^
+/usr/include/c++/5/bits/range_access.h:68:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/5/bits/range_access.h: In substitution of ‘template<class _Container> decltype (__cont.end()) std::end(_Container&) [with _Container = Animal**]’:
+../Abstract Classes.cpp:72:36:   required from here
+/usr/include/c++/5/bits/range_access.h:68:5: error: request for member ‘end’ in ‘__cont’, which is of non-class type ‘Animal**’
+/usr/include/c++/5/bits/range_access.h:78:5: note: candidate: template<class _Container> decltype (__cont.end()) std::end(const _Container&)
+     end(const _Container& __cont) -> decltype(__cont.end())
+     ^
+/usr/include/c++/5/bits/range_access.h:78:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/5/bits/range_access.h: In substitution of ‘template<class _Container> decltype (__cont.end()) std::end(const _Container&) [with _Container = Animal**]’:
+../Abstract Classes.cpp:72:36:   required from here
+/usr/include/c++/5/bits/range_access.h:78:5: error: request for member ‘end’ in ‘__cont’, which is of non-class type ‘Animal** const’
+/usr/include/c++/5/bits/range_access.h:97:5: note: candidate: template<class _Tp, long unsigned int _Nm> _Tp* std::end(_Tp (&)[_Nm])
+     end(_Tp (&__arr)[_Nm])
+     ^
+/usr/include/c++/5/bits/range_access.h:97:5: note:   template argument deduction/substitution failed:
+../Abstract Classes.cpp:72:36: note:   mismatched types ‘_Tp [_Nm]’ and ‘Animal**’
+  for ( ; it != std::end(moreAnimals); ++it ) {
+                                    ^
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+09:06:29 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:72:36: error: no matching function for call to ‘end(Animal**&)’
+  for ( ; it != std::end(moreAnimals); ++it ) {
+                                    ^
+In file included from /usr/include/c++/5/bits/range_access.h:36:0,
+                 from /usr/include/c++/5/string:51,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Abstract Classes.cpp:8:
+/usr/include/c++/5/initializer_list:99:5: note: candidate: template<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)
+     end(initializer_list<_Tp> __ils) noexcept
+     ^
+/usr/include/c++/5/initializer_list:99:5: note:   template argument deduction/substitution failed:
+../Abstract Classes.cpp:72:36: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘Animal**’
+  for ( ; it != std::end(moreAnimals); ++it ) {
+                                    ^
+In file included from /usr/include/c++/5/string:51:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Abstract Classes.cpp:8:
+/usr/include/c++/5/bits/range_access.h:68:5: note: candidate: template<class _Container> decltype (__cont.end()) std::end(_Container&)
+     end(_Container& __cont) -> decltype(__cont.end())
+     ^
+/usr/include/c++/5/bits/range_access.h:68:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/5/bits/range_access.h: In substitution of ‘template<class _Container> decltype (__cont.end()) std::end(_Container&) [with _Container = Animal**]’:
+../Abstract Classes.cpp:72:36:   required from here
+/usr/include/c++/5/bits/range_access.h:68:5: error: request for member ‘end’ in ‘__cont’, which is of non-class type ‘Animal**’
+/usr/include/c++/5/bits/range_access.h:78:5: note: candidate: template<class _Container> decltype (__cont.end()) std::end(const _Container&)
+     end(const _Container& __cont) -> decltype(__cont.end())
+     ^
+/usr/include/c++/5/bits/range_access.h:78:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/5/bits/range_access.h: In substitution of ‘template<class _Container> decltype (__cont.end()) std::end(const _Container&) [with _Container = Animal**]’:
+../Abstract Classes.cpp:72:36:   required from here
+/usr/include/c++/5/bits/range_access.h:78:5: error: request for member ‘end’ in ‘__cont’, which is of non-class type ‘Animal** const’
+/usr/include/c++/5/bits/range_access.h:97:5: note: candidate: template<class _Tp, long unsigned int _Nm> _Tp* std::end(_Tp (&)[_Nm])
+     end(_Tp (&__arr)[_Nm])
+     ^
+/usr/include/c++/5/bits/range_access.h:97:5: note:   template argument deduction/substitution failed:
+../Abstract Classes.cpp:72:36: note:   mismatched types ‘_Tp [_Nm]’ and ‘Animal**’
+  for ( ; it != std::end(moreAnimals); ++it ) {
+                                    ^
+../Abstract Classes.cpp:73:6: error: cannot convert ‘Corgi*’ to ‘Animal***’ in assignment
+   it = new Corgi[second_array_size];
+      ^
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+09:07:06 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:71:3: error: ‘it’ was not declared in this scope
+   it = new Corgi[second_array_size];
+   ^
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+09:07:28 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+09:07:52 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:71:51: error: parenthesized initializer in array new [-fpermissive]
+   moreAnimals[i] = new Corgi[second_array_size](10);
+                                                   ^
+../Abstract Classes.cpp:71:51: error: no matching function for call to ‘Corgi::Corgi(int)’
+../Abstract Classes.cpp:27:2: note: candidate: Corgi::Corgi()
+  Corgi() {
+  ^
+../Abstract Classes.cpp:27:2: note:   candidate expects 0 arguments, 1 provided
+../Abstract Classes.cpp:25:7: note: candidate: constexpr Corgi::Corgi(const Corgi&)
+ class Corgi: public Dog {
+       ^
+../Abstract Classes.cpp:25:7: note:   no known conversion for argument 1 from ‘int’ to ‘const Corgi&’
+../Abstract Classes.cpp:25:7: note: candidate: constexpr Corgi::Corgi(Corgi&&)
+../Abstract Classes.cpp:25:7: note:   no known conversion for argument 1 from ‘int’ to ‘Corgi&&’
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+09:07:58 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+09:08:39 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:74:20: error: no match for ‘operator=’ (operand types are ‘Animal’ and ‘Corgi*’)
+  moreAnimals[0][0] = new Corgi();
+                    ^
+../Abstract Classes.cpp:11:7: note: candidate: Animal& Animal::operator=(const Animal&)
+ class Animal {
+       ^
+../Abstract Classes.cpp:11:7: note:   no known conversion for argument 1 from ‘Corgi*’ to ‘const Animal&’
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+make: *** [Abstract Classes.o] Error 1
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+09:08:58 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:74:31: error: no match for call to ‘(Animal) (Corgi*)’
+  moreAnimals[0][0](new Corgi());
+                               ^
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+subdir.mk:18: recipe for target 'Abstract Classes.o' failed
+make: *** [Abstract Classes.o] Error 1
+09:09:40 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 
+09:10:30 **** Incremental Build of configuration Debug for project Abstract Classes ****
+make all 
+Building file: ../Abstract Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Abstract Classes.d" -MT"Abstract\ Classes.d" -o "Abstract Classes.o" "../Abstract Classes.cpp"
+../Abstract Classes.cpp: In function ‘int main(int, char**)’:
+../Abstract Classes.cpp:55:10: warning: unused variable ‘test’ [-Wunused-variable]
+  Animal *test = animals[0];
+          ^
+Finished building: ../Abstract Classes.cpp
+ 
+Building target: Abstract Classes
+Invoking: GCC C++ Linker
+g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
+Finished building target: Abstract Classes
+ 

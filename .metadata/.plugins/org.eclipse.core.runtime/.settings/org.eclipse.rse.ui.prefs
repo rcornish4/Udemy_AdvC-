@@ -1,6 +1,5 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=818a92664d0675f687d2a2b764f4a78b3baff1b2
 eclipse.preferences.version=1
-<<<<<<< HEAD
-org.eclipse.rse.preferences.order.connections=rcornish.Local
-=======
-org.eclipse.rse.preferences.order.connections=ub-dev-rc.Local
->>>>>>> 818a92664d0675f687d2a2b764f4a78b3baff1b2
+org.eclipse.rse.preferences.order.connections=ub-dev-rc.Local;rcornish.Local

@@ -1,0 +1,19 @@
+/*
+ * Overloading Plus.cpp
+ *
+ *  Created on: Jun 28, 2017
+ *      Author: rcornish
+ */
+
+#include <iostream>
+#include "Complex.h"
+
+int main( int argc, char** argv ) {
+	caveofprogrammming::Complex c1(3, 4);
+
+
+
+	return 0;
+}
+
+

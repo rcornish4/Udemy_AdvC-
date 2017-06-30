@@ -1,0 +1,20 @@
+14:59:16 **** Incremental Build of configuration Debug for project Overloading Plus ****
+make all 
+Building file: ../Complex.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Complex.d" -MT"Complex.o" -o "Complex.o" "../Complex.cpp"
+Finished building: ../Complex.cpp
+ 
+Building file: ../Overloading Plus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Overloading Plus.d" -MT"Overloading\ Plus.d" -o "Overloading Plus.o" "../Overloading Plus.cpp"
+Finished building: ../Overloading Plus.cpp
+ 
+Building target: Overloading Plus
+Invoking: GCC C++ Linker
+g++  -o "Overloading Plus"  ./Complex.o ./Overloading\ Plus.o   
+Finished building target: Overloading Plus
+ 
+
+14:59:17 Build Finished (took 648ms)
+

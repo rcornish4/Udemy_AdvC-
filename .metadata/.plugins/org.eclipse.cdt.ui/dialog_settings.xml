@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="Default C++ source template" key="LastUsedSourceTemplate"/>
+<<<<<<< HEAD
 	<item value="Default C++ header template" key="LastUsedHeaderTemplate"/>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
@@ -11,6 +12,10 @@
 	<section name="OptionalMessageDialog.hide.">
 		<item value="0" key="askReindex.detail"/>
 	</section>
+=======
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+>>>>>>> 818a92664d0675f687d2a2b764f4a78b3baff1b2
 	<section name="completion_proposal_size">
 	</section>
 </section>

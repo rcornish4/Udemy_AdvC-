@@ -1,0 +1,37 @@
+/*
+ * Custom Objects as Map Values.cpp
+ *
+ *  Created on: Jun 16, 2017
+ *      Author: rcornish4
+ */
+
+#include <iostream>
+#include <map>
+
+class Person {
+private:
+	std::string name;
+	int age;
+
+public:
+	Person() : name( "" ), age( 0 ){
+	}
+
+	Person( std::string name, int age ) :
+		name( name ), age( age ) {
+	}
+
+	void print() {
+		std::cout << name << ": " << age << std::endl;
+	}
+};
+
+int main( int argc, char** argv ) {
+	std::map<int, Person> people;
+
+	people
+
+	return 0;
+}
+
+

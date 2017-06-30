@@ -1,0 +1,17 @@
+/*
+ * Multimap.cpp
+ *
+ *  Created on: Jun 16, 2017
+ *      Author: rcornish4
+ */
+
+#include <iostream>
+#include <map>
+
+int main( int argc, char** argv ) {
+	std::multimap<int, std::string> lookup;
+
+	return 0;
+}
+
+

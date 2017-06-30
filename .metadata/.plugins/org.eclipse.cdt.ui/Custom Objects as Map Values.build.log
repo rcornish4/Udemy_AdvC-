@@ -1,0 +1,15 @@
+13:24:53 **** Incremental Build of configuration Debug for project Custom Objects as Map Values ****
+make all 
+Building file: ../Custom Objects as Map Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Custom Objects as Map Values.d" -MT"Custom\ Objects\ as\ Map\ Values.d" -o "Custom Objects as Map Values.o" "../Custom Objects as Map Values.cpp"
+Finished building: ../Custom Objects as Map Values.cpp
+ 
+Building target: Custom Objects as Map Values
+Invoking: GCC C++ Linker
+g++  -o "Custom Objects as Map Values"  ./Custom\ Objects\ as\ Map\ Values.o   
+Finished building target: Custom Objects as Map Values
+ 
+
+13:24:54 Build Finished (took 637ms)
+

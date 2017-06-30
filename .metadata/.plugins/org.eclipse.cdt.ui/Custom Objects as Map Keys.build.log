@@ -1,0 +1,15 @@
+13:48:52 **** Incremental Build of configuration Debug for project Custom Objects as Map Keys ****
+make all 
+Building file: ../Custom Objects as Map Keys.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Custom Objects as Map Keys.d" -MT"Custom\ Objects\ as\ Map\ Keys.d" -o "Custom Objects as Map Keys.o" "../Custom Objects as Map Keys.cpp"
+Finished building: ../Custom Objects as Map Keys.cpp
+ 
+Building target: Custom Objects as Map Keys
+Invoking: GCC C++ Linker
+g++  -o "Custom Objects as Map Keys"  ./Custom\ Objects\ as\ Map\ Keys.o   
+Finished building target: Custom Objects as Map Keys
+ 
+
+13:48:52 Build Finished (took 587ms)
+

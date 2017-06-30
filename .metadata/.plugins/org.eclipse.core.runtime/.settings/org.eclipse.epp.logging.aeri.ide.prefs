@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 configured=true
+=======
+>>>>>>> 818a92664d0675f687d2a2b764f4a78b3baff1b2
 eclipse.preferences.version=1
 resetSendMode=KEEP
 resetSendModeOn=0
 sendMode=NOTIFY
+<<<<<<< HEAD
 servers/org.eclipse.epp.logging.aeri.ide.server/configured=true
+=======
+>>>>>>> 818a92664d0675f687d2a2b764f4a78b3baff1b2

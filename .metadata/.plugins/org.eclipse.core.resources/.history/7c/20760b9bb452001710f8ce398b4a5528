@@ -1,0 +1,36 @@
+/*
+ * maps.cpp
+ *
+ *  Created on: Jun 16, 2017
+ *      Author: rcornish4
+ */
+
+#include <iostream>
+#include <map>
+
+int main( int arc, char** argv ) {
+	std::map<std::string, int> ages;
+
+	ages["Mike"] = 40;
+	ages["Raj"] = 20;
+	ages["Vicky"] = 30;
+
+	std::cout << ages["Raj"] << std::endl;
+
+	for ( std::map<std::string, int>::iterator it = ages.begin();
+			it != ages.end(); ++it ) {
+		std::cout << it->first + ": " << it->second << std::endl;
+	}
+
+	for ( std::map<std::string, int>::iterator it = ages.begin();
+			it != ages.end(); ++it) {
+		decltype( std::make_pair("Mike", 40) ) age;
+		age = *it;
+
+		std::cout << age.first + ": " << age.second << std::endl;
+	}
+
+	return 0;
+}
+
+

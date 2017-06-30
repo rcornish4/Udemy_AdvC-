@@ -37,11 +37,18 @@ public:
 };
 
 int main( int argc, char** argv ) {
+
 	Child c1;
 	Parent *p1 = &c1;
 
 	p1->print();
 
+
+	/* Object slicing happens when an object of the Parent type is instantiated and initialized
+	 * with a value of a child type. In the below example p2 is copy constructed. Inside the Parent
+	 * copy constructor member one is initialized, but
+	*
+	*/
 	Parent p2 = Child();
 	p2.print();
 

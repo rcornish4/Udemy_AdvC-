@@ -1477,3 +1477,6 @@ java.io.FileNotFoundException: /home/rcornish4/workspace/Udemy_AdvC++/Abstract C
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-30 09:19:29.082
+!MESSAGE Indexed 'Functors' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

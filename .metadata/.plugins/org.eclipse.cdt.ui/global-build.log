@@ -1853,3 +1853,101 @@ Invoking: GCC C++ Linker
 g++  -o "Abstract Classes"  ./Abstract\ Classes.o   
 Finished building target: Abstract Classes
  
+09:36:02 **** Build of configuration Debug for project Functors ****
+make all 
+Building file: ../Functors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functors.d" -MT"Functors.o" -o "Functors.o" "../Functors.cpp"
+Finished building: ../Functors.cpp
+ 
+Building target: Functors
+Invoking: GCC C++ Linker
+g++  -o "Functors"  ./Functors.o   
+Finished building target: Functors
+ 
+09:36:04 **** Incremental Build of configuration Debug for project Functors ****
+make all 
+Building file: ../Functors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functors.d" -MT"Functors.o" -o "Functors.o" "../Functors.cpp"
+Finished building: ../Functors.cpp
+ 
+Building target: Functors
+Invoking: GCC C++ Linker
+g++  -o "Functors"  ./Functors.o   
+Finished building target: Functors
+ 
+09:43:09 **** Incremental Build of configuration Debug for project Functors ****
+make all 
+Building file: ../Functors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functors.d" -MT"Functors.o" -o "Functors.o" "../Functors.cpp"
+../Functors.cpp:12:7: error: initializer specified for non-virtual method ‘bool Test::operator()(std::__cxx11::string&)’
+  bool operator()( std::string &text ) = 0;
+       ^
+make: *** [Functors.o] Error 1
+subdir.mk:18: recipe for target 'Functors.o' failed
+09:43:33 **** Incremental Build of configuration Debug for project Functors ****
+make all 
+Building file: ../Functors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functors.d" -MT"Functors.o" -o "Functors.o" "../Functors.cpp"
+Finished building: ../Functors.cpp
+ 
+Building target: Functors
+Invoking: GCC C++ Linker
+g++  -o "Functors"  ./Functors.o   
+Finished building target: Functors
+ 
+09:44:09 **** Incremental Build of configuration Debug for project Functors ****
+make all 
+Building file: ../Functors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functors.d" -MT"Functors.o" -o "Functors.o" "../Functors.cpp"
+../Functors.cpp: In function ‘int main(int, char**)’:
+../Functors.cpp:40:32: error: invalid initialization of non-const reference of type ‘Test&’ from an rvalue of type ‘MatchTest*’
+  check( value, new MatchTest() );
+                                ^
+../Functors.cpp:23:6: note: in passing argument 2 of ‘void check(std::__cxx11::string, Test&)’
+ void check( std::string text, Test &test ) {
+      ^
+make: *** [Functors.o] Error 1
+subdir.mk:18: recipe for target 'Functors.o' failed
+09:44:52 **** Incremental Build of configuration Debug for project Functors ****
+make all 
+Building file: ../Functors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functors.d" -MT"Functors.o" -o "Functors.o" "../Functors.cpp"
+../Functors.cpp: In function ‘int main(int, char**)’:
+../Functors.cpp:40:32: error: invalid initialization of non-const reference of type ‘Test&’ from an rvalue of type ‘MatchTest*’
+  check( value, new MatchTest() );
+                                ^
+../Functors.cpp:23:6: note: in passing argument 2 of ‘void check(std::__cxx11::string, Test&)’
+ void check( std::string text, Test &test ) {
+      ^
+subdir.mk:18: recipe for target 'Functors.o' failed
+make: *** [Functors.o] Error 1
+09:45:14 **** Incremental Build of configuration Debug for project Functors ****
+make all 
+Building file: ../Functors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Functors.d" -MT"Functors.o" -o "Functors.o" "../Functors.cpp"
+Finished building: ../Functors.cpp
+ 
+Building target: Functors
+Invoking: GCC C++ Linker
+g++  -o "Functors"  ./Functors.o   
+Finished building target: Functors
+ 
+09:51:05 **** Incremental Build of configuration Debug for project Object Slicing and Polymorphism ****
+make all 
+Building file: ../Object Slicing and Polymorphism.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Object Slicing and Polymorphism.d" -MT"Object\ Slicing\ and\ Polymorphism.d" -o "Object Slicing and Polymorphism.o" "../Object Slicing and Polymorphism.cpp"
+Finished building: ../Object Slicing and Polymorphism.cpp
+ 
+Building target: Object Slicing and Polymorphism
+Invoking: GCC C++ Linker
+g++  -o "Object Slicing and Polymorphism"  ./Object\ Slicing\ and\ Polymorphism.o   
+Finished building target: Object Slicing and Polymorphism
+ 

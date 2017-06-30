@@ -1,3 +1,58 @@
+<<<<<<< HEAD
+16:37:56 **** Incremental Build of configuration Debug for project Stack and Queue ****
+make all 
+Building file: ../Stack and Queue.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Stack and Queue.d" -MT"Stack\ and\ Queue.d" -o "Stack and Queue.o" "../Stack and Queue.cpp"
+Finished building: ../Stack and Queue.cpp
+ 
+Building target: Stack and Queue
+Invoking: GCC C++ Linker
+g++  -o "Stack and Queue"  ./Stack\ and\ Queue.o   
+Finished building target: Stack and Queue
+ 
+13:21:26 **** Incremental Build of configuration Debug for project A Complex Number Class ****
+make all 
+make: Nothing to be done for `all'.
+13:21:26 **** Incremental Build of configuration Debug for project Overloading Comparison Operators ****
+make all 
+make: Nothing to be done for `all'.
+13:21:26 **** Incremental Build of configuration Debug for project STL Complex Data Types ****
+make all 
+make: Nothing to be done for `all'.
+13:21:27 **** Incremental Build of configuration Debug for project Sets ****
+make all 
+make: Nothing to be done for `all'.
+13:21:27 **** Incremental Build of configuration Debug for project Sorting Vectors ****
+make all 
+Building file: ../Sorting Vectors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Sorting Vectors.d" -MT"Sorting\ Vectors.d" -o "Sorting Vectors.o" "../Sorting Vectors.cpp"
+Finished building: ../Sorting Vectors.cpp
+ 
+Building target: Sorting Vectors
+Invoking: GCC C++ Linker
+g++  -o "Sorting Vectors"  ./Sorting\ Vectors.o   
+Finished building target: Sorting Vectors
+ 
+13:21:28 **** Incremental Build of configuration Debug for project Stack and Queue ****
+make all 
+make: Nothing to be done for `all'.
+13:21:31 **** Incremental Build of configuration Debug for project Sorting Vectors ****
+make all 
+make: Nothing to be done for `all'.
+13:21:54 **** Incremental Build of configuration Debug for project Sorting Vectors ****
+make all 
+Building file: ../Sorting Vectors.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Sorting Vectors.d" -MT"Sorting\ Vectors.d" -o "Sorting Vectors.o" "../Sorting Vectors.cpp"
+Finished building: ../Sorting Vectors.cpp
+ 
+Building target: Sorting Vectors
+Invoking: GCC C++ Linker
+g++  -o "Sorting Vectors"  ./Sorting\ Vectors.o   
+Finished building target: Sorting Vectors
+=======
 13:43:40 **** Build of configuration Debug for project Custom Objects as Map Keys ****
 make all 
 Building file: ../Custom Objects as Map Keys.cpp
@@ -471,6 +526,7 @@ Building target: Multimap
 Invoking: GCC C++ Linker
 g++  -o "Multimap"  ./Multimap.o   
 Finished building target: Multimap
+>>>>>>> 818a92664d0675f687d2a2b764f4a78b3baff1b2
  
 20:02:11 **** Incremental Build of configuration Debug for project Multimap ****
 make all 

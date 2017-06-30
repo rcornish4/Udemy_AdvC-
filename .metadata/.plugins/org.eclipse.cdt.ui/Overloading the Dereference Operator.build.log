@@ -1,0 +1,20 @@
+15:24:42 **** Incremental Build of configuration Debug for project Overloading the Dereference Operator ****
+make all 
+Building file: ../Complex.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Complex.d" -MT"Complex.o" -o "Complex.o" "../Complex.cpp"
+Finished building: ../Complex.cpp
+ 
+Building file: ../Overloading the Dereference Operator.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Overloading the Dereference Operator.d" -MT"Overloading\ the\ Dereference\ Operator.d" -o "Overloading the Dereference Operator.o" "../Overloading the Dereference Operator.cpp"
+Finished building: ../Overloading the Dereference Operator.cpp
+ 
+Building target: Overloading the Dereference Operator
+Invoking: GCC C++ Linker
+g++  -o "Overloading the Dereference Operator"  ./Complex.o ./Overloading\ the\ Dereference\ Operator.o   
+Finished building target: Overloading the Dereference Operator
+ 
+
+15:24:42 Build Finished (took 370ms)
+
